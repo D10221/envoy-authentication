@@ -1,7 +1,10 @@
-PouchDB Authentication [![Build Status](https://travis-ci.org/nolanlawson/pouchdb-authentication.svg?branch=master)](https://travis-ci.org/nolanlawson/pouchdb-authentication)
+CouchDB Envoy Authentication
 =====
 
-<img alt="PouchDB Authentication logo by nickcolley" title="PouchDB Authentication logo by nickcolley" width="150px" src="https://raw.githubusercontent.com/nolanlawson/pouchdb-authentication/master/docs/logo.png"/>
+Only the following methods have been ported from pouch-authentication (Other methods remain as they were upstream, and may be unsuitable for use):
+   * db.getSession()
+   * db.login()
+   * db.logout()   
 
 Easy user authentication for PouchDB/CouchDB.
 

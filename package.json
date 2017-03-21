@@ -1,16 +1,16 @@
 {
-  "name": "pouchdb-authentication",
-  "version": "0.5.5",
-  "description": "PouchDB Authentication",
+  "name": "envoy-authentication",
+  "version": "0.0.4",
+  "description": "Envoy Authentication",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/nolanlawson/pouchdb-authentication.git"
+    "url": "git://github.com/DanielDent/envoy-authentication.git"
   },
   "scripts": {
     "jshint": "jshint -c .jshintrc lib/ test/test.js",
-    "build-js": "mkdirp dist && browserify . -p bundle-collapser/plugin -s PouchAuthentication > dist/pouchdb.authentication.js",
-    "min": "uglifyjs dist/pouchdb.authentication.js -mc > dist/pouchdb.authentication.min.js",
+    "build-js": "mkdirp dist && browserify . -p bundle-collapser/plugin -s EnvoyAuthentication > dist/envoy.authentication.js",
+    "min": "uglifyjs dist/envoy.authentication.js -mc > dist/envoy.authentication.min.js",
     "build": "npm run build-js && npm run min",
     "dev": "zuul --local 9000 --no-coverage --ui mocha-bdd test/test.js",
     "test": "zuul --phantom --ui mocha-bdd test/test.js"
@@ -20,12 +20,13 @@
     "pouchdb",
     "authentication",
     "couch",
-    "couchdb"
+    "couchdb",
+    "envoy"
   ],
-  "author": "Nolan Lawson <nolan@nolanlawson.com",
+  "author": "Daniel Dent (https://www.danieldent.com/)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/nolanlawson/pouchdb-authentication/issues"
+    "url": "https://github.com/DanielDent/envoy-authentication/issues"
   },
   "dependencies": {
     "inherits": "2.0.1",

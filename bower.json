@@ -1,16 +1,17 @@
 {
-  "name": "pouchdb-authentication",
-  "version": "0.5.1",
-  "description": "Easy authentication plugin for PouchDB/CouchDB",
-  "main": "dist/pouchdb.authentication.js",
-  "homepage": "https://github.com/nolanlawson/pouchdb-authentication",
+  "name": "envoy-authentication",
+  "version": "0.0.1",
+  "description": "Easy authentication plugin for PouchDB/CouchDB with Envoy",
+  "main": "dist/envoy.authentication.js",
+  "homepage": "https://github.com/DanielDent/envoy-authentication",
   "authors": [
-    "Nolan Lawson <nolan.lawson@gmail.com>"
+    "Daniel Dent (https://www.danieldent.com/)"
   ],
   "keywords": [
     "pouchdb",
     "couchdb",
-    "authentication"
+    "authentication",
+    "envoy"
   ],
   "license": "Apache 2.0",
   "ignore": [
